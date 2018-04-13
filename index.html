@@ -13,63 +13,64 @@
 </head>
 
 <body>
-    <div class="header">
-        <img class="logo" src="static/images/logo.png" alt="logo">
-        <ul class="header-menu">
-            <li class="menu-item active">
-                <a href="#">what's hot</a>
-            </li>
-            <li class="menu-item">
-                <a href="#">new</a>
-            </li>
-            <li class="menu-item">
-                <a href="#">controversial</a>
-            </li>
-            <li class="menu-item">
-                <a href="#">top</a>
-            </li>
-            <li class="menu-item">
-                <a href="#">more</a>
-            </li>
-        </ul> 
-        <div class="sub-header">
-            <div class="sub-header-item">
-                <a class="link" href="#">
-                    Mendokusai
-                    <span class="text-grey">(4896)</span>
-                </a>
-            </div>
-            <div class="sub-header-item img-item without-border padding-null">
-                <img class="icon-link" src="static/images/pictoMail.png" alt="mail">
-            </div>
-            <div class="sub-header-item border-left">
-                <a class="link active" href="#">
-                    preferences
-                </a>
-            </div>
-            <div class="sub-header-item">
-                <a class="link" href="#">
-                    stats
-                </a>
-            </div>
-            <div class="sub-header-item">
-                <a class="link" href="#">
-                    help
-                </a>
-            </div>
-            <div class="sub-header-item">
-                <a class="link" href="#">
-                    blog
-                </a>
-            </div>
-            <div class="sub-header-item without-border">
-                <a class="link" href="#">
-                    logout
-                </a>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="static/images/logo.png" alt="logo">
+            <ul class="header-menu">
+                <li class="menu-item active">
+                    <a href="#">what's hot</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">new</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">controversial</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">top</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">more</a>
+                </li>
+            </ul> 
+            <div class="sub-header">
+                <div class="sub-header-item">
+                    <a class="link" href="#">
+                        Mendokusai
+                        <span class="text-grey">(4896)</span>
+                    </a>
+                </div>
+                <div class="sub-header-item img-item without-border padding-null">
+                    <img class="icon-link" src="static/images/pictoMail.png" alt="mail">
+                </div>
+                <div class="sub-header-item border-left">
+                    <a class="link active" href="#">
+                        preferences
+                    </a>
+                </div>
+                <div class="sub-header-item">
+                    <a class="link" href="#">
+                        stats
+                    </a>
+                </div>
+                <div class="sub-header-item">
+                    <a class="link" href="#">
+                        help
+                    </a>
+                </div>
+                <div class="sub-header-item">
+                    <a class="link" href="#">
+                        blog
+                    </a>
+                </div>
+                <div class="sub-header-item without-border">
+                    <a class="link" href="#">
+                        logout
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="content">
+        <div class="content">
         <div class="row">
             <div class="col-9">
                 <div class="row">
@@ -513,7 +514,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 rel">
+                <div class="search-container">
+                    <input class="mn-search" type="text" placeholder="search">
+                    <button class="mn-search-btn">
+                        <img src="static/images/search.png" alt="searchIcon"/>
+                    </button>
+                </div>
                 <div class="customize-container">
                     <h2>Customize your reddit</h2>
                     <p class="under-h2">Select which communities you want to see</p>
@@ -817,6 +824,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 </html>

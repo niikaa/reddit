@@ -9,8 +9,15 @@ h2 {
     font-size: 22px;
     font-weight: bold;
 }
+.container {
+    min-width: 1280px;
+    overflow-x: auto;
+}
 .padding-null {
     padding: 0 !important;
+}
+.rel {
+    position: relative
 }
 /*Header*/
 .header {
@@ -334,4 +341,22 @@ h2 {
 .link-description {
     color: #888;
     font-size: 12px;
+}
+.search-container {
+    margin-left: 8px;
+    margin-right: 8px;
+    position: absolute;
+    width: calc(100% - 16px);
+    margin-top: -33px;
+}
+.mn-search {
+    width: calc(100% - 4px);
+}
+.mn-search-btn {
+    position: absolute;
+    right: 0;
+    top: 0; 
+}
+.mn-search-btn img {
+    height: 10px;
 }
