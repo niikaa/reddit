@@ -19,6 +19,7 @@ h2 {
 .rel {
     position: relative
 }
+
 /*Header*/
 .header {
     position: relative;
@@ -230,6 +231,8 @@ h2 {
     font-size: 12px;
     letter-spacing: 0.4px;
 }
+
+/*tags*/
 .tags {
     text-align: center;
 }
@@ -294,6 +297,7 @@ h2 {
 .deg-28 {
     font-size: 28px;
 }
+
 .checkboxes {
     margin-top: 4px;
 }
@@ -342,6 +346,8 @@ h2 {
     color: #888;
     font-size: 12px;
 }
+
+/*searchBar*/
 .search-container {
     margin-left: 8px;
     margin-right: 8px;
